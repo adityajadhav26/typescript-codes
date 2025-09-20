@@ -1,0 +1,24 @@
+Primitive types (number, string, boolean, etc.) are basic and hold single values.
+1. number,
+2. string
+3. boolean
+4. null (empty value), undefined (value not assigned)
+5. any
+6. union - pipe |
+7. void
+
+
+Non-Primitive Types (Objects & Custom Types)
+1. Array
+2. Tuple
+3. Class
+4. Functions
+5. Interface
+
+
+
+Key Takeaways:
+- Primitive types (number, string, boolean, etc.) are basic and hold single values.
+- Non-primitive types (Array, Class, Interfaceetc.) are complex and hold structured data.
+- Avoid any when possible —use proper types for better code safety.
+- Union types (|) allow flexibility when a variable can be multiple types.
