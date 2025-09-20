@@ -1,0 +1,22 @@
+typescript is statically typed programming langage.
+var, let, const- these 3 keywords only used while creating varible.
+
+syntax-
+        keyword variable-name :datatype(optional) = value;
+
+recommended rules to follow:
+    - never use 'var' for creating variable.
+    - use 'let' when you need a variable that can change.
+    - use 'const' for variable to make it as constsnt. when the variable value should not change.
+
+// 1. Scope : Function Scope vs. Block Scope
+    - var (Function Scope)
+    - let and const (Block Scope)
+
+var vs let vs const.
+    - value assignment at declaration is optional. not manadatory.( same for 'var'),but  mandatory for 'const'.
+    - re-declaration of existing varible is not allowed. ( var allows), const not allows.
+    - value reassignment/re-initialization of varaible is allowed any time. (var allows). const not allows.
+    
+    - var support hoisting, variable is avilable before its declartion.
+    - let & const dont support. first initialize, then use.
