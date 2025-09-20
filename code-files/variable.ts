@@ -13,3 +13,5 @@ console.log(pi);
 // both let, const are block scope.
 // both dont support Hoisting.
 
+//pi=6.78;    // TypeError: Assignment to constant variable.
+console.log(pi);
