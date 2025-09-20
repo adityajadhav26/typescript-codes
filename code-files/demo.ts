@@ -6,7 +6,8 @@ console.log(typeof result );
  */
 
 
-let emptyvalue : null = null;
+// let emptyvalue : null = null; // this also works
+let emptyvalue : object = null;     // this also works
 console.log(typeof(emptyvalue)); // object
 
 console.log(typeof(null)); // object
