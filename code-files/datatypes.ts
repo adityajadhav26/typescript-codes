@@ -14,6 +14,8 @@ flag=false;
 
 //4. null vs undefined- special types for absense of values
 let emptyvalue:null = null;
+console.log(typeof(emptyvalue)); // object - object data type on higher level, null data type at lower level
+// so null is value, not a data type, null means empty object/ empty value.
 
 let notAssigend: undefined = undefined;
 
